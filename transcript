@@ -1,0 +1,28 @@
+# Reading pref.tcl
+# OpenFile C:/Users/Anduin/Desktop/flowingLight/flowingLED.mpf
+# Loading project flowingLED
+# Compile of flowingLED.sv was successful.
+vsim -gui work.test_bench_flowingLED_comb
+# vsim -gui work.test_bench_flowingLED_comb 
+# Start time: 22:24:23 on Dec 09,2020
+# Loading sv_std.std
+# Loading work.test_bench_flowingLED_comb
+# Loading work.flowingLED_comb
+# Loading work.flowingLED_counter
+# Loading work.prescaler
+# Loading work.counter16
+# Loading work.decoder4_16
+# Loading work.decoder3_8
+# Loading work.flowingLED_shift_reg
+# Loading work.shifting_register_16bit
+# Loading work.shifting_register_8bit
+add wave -position insertpoint  \
+sim:/test_bench_flowingLED_comb/clock_50MHz \
+sim:/test_bench_flowingLED_comb/reset_n \
+sim:/test_bench_flowingLED_comb/stop \
+sim:/test_bench_flowingLED_comb/select \
+sim:/test_bench_flowingLED_comb/LED_out
+run
+# Can't move the Now cursor.
+# End time: 22:29:49 on Dec 09,2020, Elapsed time: 0:05:26
+# Errors: 0, Warnings: 2
